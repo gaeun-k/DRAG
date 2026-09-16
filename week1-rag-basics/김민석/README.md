@@ -1,7 +1,5 @@
 # 김민석의 week1-rag-basics 실습
 
-# 김민석의 week1-rag-basics 실습
-
 테디노트 랭체인 한국어 튜토리얼 `08-Embeddings`, `09-VectorStore`, `10-Retriever` 실습 코드와 결과 정리.
 
 - 실행 환경: Google Colab (CPU)
