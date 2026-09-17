@@ -3,8 +3,7 @@
 ## 개요
 
 LangChain으로 구현한 자체 문서 기반 RAG(Retrieval-Augmented Generation) 챗봇입니다.
-teddynote(langchain-kr) `12-RAG/01-RAG-Basic-Webloader.ipynb`를 베이스로, 자체 문서를
-쓸 수 있도록 수정했습니다.
+teddynote(langchain-kr) `12-RAG/01-RAG-Basic-Webloader.ipynb`를 베이스로 만들었습니다.
 
 ## 파일 구성
 
