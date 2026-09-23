@@ -1,0 +1,12 @@
+.venv/
+.env
+.env.*
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+.local-ai/
+outputs/
+data/*
+!data/study_wiki.md
+!data/my_document.txt
