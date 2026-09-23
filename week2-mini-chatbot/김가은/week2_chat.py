@@ -57,6 +57,7 @@ print(f"분할된 청크 수: {len(splits)}")
 embeddings = HuggingFaceEmbeddings(
     model_name="BAAI/bge-m3",
     model_kwargs={"device": "cpu"},  # cuda, cpu
+    # 벡터 길이를 1로 정규화 -> 코사인 유사도 계산 더 안정적
     encode_kwargs={"normalize_embeddings": True},
 )
 vectorstore = FAISS.from_documents(documents=splits, embedding=embeddings)
@@ -96,9 +97,11 @@ llm = ChatGoogleGenerativeAI(model="gemini-3.8-flash", temperature=0)
 # 8단계: 체인 생성
 # ------------------------------------------------------------------
 rag_chain = (
+    # RunnablePassthrough() : "입력을 그대로 통과" 시키는 역할
     {"context": retriever, "question": RunnablePassthrough()}
     | prompt
     | llm
+    # StrOutputParser() : llm의 반환(메세지)에서 순수 텍스트만 추출
     | StrOutputParser()
 )
 
@@ -115,7 +118,8 @@ def chat():
             break
         if not question:
             continue
-
+        
+        # 토큰이 생성되는 대로 조금씩 잘라서 실시간으로 반환
         for chunk in rag_chain.stream(question):
             print(chunk, end="", flush=True)
         print()
