@@ -141,7 +141,7 @@
   - 이미지 → 패치 → 토큰 시퀀스 → Transformer
   - 풀링: MAP(Multihead Attention Pooling) head로 하나의 벡터로 요약
 - 텍스트 인코더: Transformer, 최대 길이 64 토큰
-- 학습 가능한 파라미터: **온도 t**, **바이어스 b** (Slide 11)
+- 학습 가능한 파라미터: **온도 t**, **바이어스 b** (Slide 12)
 - 모델 이름 읽는 법: `google/siglip-base-patch16-224`
   - base = 모델 크기 / patch16 = 패치 크기 16 / 224 = 입력 해상도 224×224
   - `so400m` = 계산 최적 형태로 설계한 약 4억 파라미터 ViT (Shape-Optimized)
