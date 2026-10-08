@@ -1,8 +1,4 @@
-[README.md](https://github.com/user-attachments/files/33188751/README.md)
-# 김민석의 week5-multimodal-search 실습
-
-여기에 이번 주 실습 코드와 결과를 정리해주세요.
-# 5주차 멀티모달 검색 - 김민석
+# 5주차 멀티모달 검색
 
 SigLIP + FAISS로 텍스트→이미지 검색을 만들고, **한국어로 검색하면 왜 성능이 떨어지는지, 어떻게 올릴 수 있는지**를 실험했다.
 
