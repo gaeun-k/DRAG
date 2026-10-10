@@ -1,4 +1,4 @@
-# 5주차 멀티모달 검색
+# 5주차 멀티모달 검색 - 김민석
 
 SigLIP + FAISS로 텍스트→이미지 검색을 만들고, **한국어로 검색하면 왜 성능이 떨어지는지, 어떻게 올릴 수 있는지**를 실험했다.
 
@@ -37,8 +37,6 @@ flowchart LR
 | SigLIP v1 multilingual | 0.699 | 0.434 | 17초 |
 | SigLIP2 base | 0.769 | 0.450 | 16초 |
 | SigLIP2 so400m | **0.816** | **0.541** | 223초 |
-
-![Recall 비교](results/recall_compare.png)
 
 - 같은 크기에서 SigLIP2가 v1보다 영어 R@1이 7%p 높다.
 - 그런데 한국어에서는 차이가 1.6%p뿐이다. 영어 성능 향상이 한국어까지 이어지지 않았다.
@@ -97,8 +95,6 @@ SigLIP2 base를 골랐다. 번역 후 검색에서 가장 크게 회복된 모�
 
 한국어가 23%p 오르고 영어는 떨어지지 않았다. base 모델 하나로 so400m 질의 섞기(0.652)보다 높고, 검색할 때 번역도 필요 없다.
 
-![학습률 비교](results/ft_lr_sweep.png)
-
 <details>
 <summary>학습률 비교 표 (펼치기)</summary>
 
@@ -119,7 +115,7 @@ val R@1 기준.
 
 **검색 결과로 본 변화**
 
-- "원반을 잡는 개": 학습 전 so400m 0/5 → 파인튜닝 후 **4/5**. 번역 데이터 속 "원반 = frisbee" 대응을 배웠다.
+- "원반을 잡는 개": 학습 전 so400m 0/5 → 파인튜닝 후 **4/5**. 다만 학습 데이터 번역에는 "원반"이 0번, "프리스비"가 231번 나왔다. "원반"이라는 단어를 배운 게 아니라, 이 데이터에서 "개가 뭔가를 잡는" 사진은 대부분 프리스비라는 걸 배운 것으로 보인다.
 - "빨간 셔츠를 입은 아이": 빨간 방망이를 든 아이, 빨간 음료가 묻은 아이가 섞여 나왔다. 색이 어디에 붙어 있는지 구분하지 못하는 건 이런 모델의 원래 약점이라 한국어 학습으로는 안 고쳐진다.
 
 ## 5. 번역을 거치지 않은 질의로 다시 평가
@@ -152,7 +148,9 @@ val R@1 기준.
 | 물 위로 물보라 일으키며 낙하산 타는 사람 | 1 | 8 |
 | 하얀 벽 앞에 멀찍이 떨어져 서 있는 두 사람 | 2 | 4 |
 
-전체 결과는 `results/rank_human_queries.csv`에 있다.
+"낙하산" 질의가 떨어진 이유는 확인하지 못했다. 학습 데이터에서 parasail은 14문장 모두 "낙하산"으로 번역돼 있어서, 번역 단어 문제는 아니다.
+
+40개 전체 순위는 노트북의 `[재평가]` 셀 출력에 있다.
 
 </details>
 
@@ -176,20 +174,9 @@ Colab의 transformers 버전에서 `pipeline("translation")`이 안 돌아갔다
 
 ## 파일 구성
 
-```
-김민석/
-├── README.md
-├── week5_multimodal_search.ipynb
-└── results/
-    ├── recall_at_k.csv, recall_compare.png        # 1. 모델 비교
-    ├── recall_ko_route.csv                         # 3. 질의 넣는 방식
-    ├── recall_query_fusion.csv                     # 3. 벡터 섞기
-    ├── recall_ensemble_ko.csv                      # 3. 앙상블
-    ├── en_ko_overlap.csv                           # 3. 영어/한국어 일관성
-    ├── ft_lr_sweep.csv, ft_lr_sweep.png            # 4. 학습률 비교
-    ├── ft_test_result_lr3e-05_ep3.csv              # 4. 파인튜닝 test 결과
-    ├── recall_human_queries.csv                    # 5. 새로 쓴 질의 평가
-    ├── rank_human_queries.csv                      # 5. 질의별 순위
-    ├── human_query_images.png                      # 5. 평가에 쓴 사진 40장
-    └── search_*.png, ft_search_*.png               # 검색 결과 캡처
-```
+| 파일 | 내용 |
+|---|---|
+| `README.md` | 실험 정리 (이 문서) |
+| `TAVE_Week_5.ipynb` | 전체 코드와 실행 결과. 셀마다 `[번역]`, `[인덱싱]`, `[최종 학습]`처럼 단계 이름 주석이 있어서 위 번호와 맞춰 볼 수 있다 |
+
+검색 결과 이미지, Recall 표, 학습률 그래프는 모두 노트북 셀 출력에 들어 있다.
