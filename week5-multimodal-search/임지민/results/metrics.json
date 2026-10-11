@@ -1,0 +1,23 @@
+{
+  "dataset": "intro/flickr8k",
+  "revision": "c7a02cb487da0eca729e133194b0f842cb578c08",
+  "split": "test",
+  "seed": 42,
+  "images": 300,
+  "queries": 1500,
+  "model": "google/siglip2-base-patch16-224",
+  "device": "cpu",
+  "dimension": 768,
+  "index": "IndexFlatIP (L2-normalized)",
+  "metrics": {
+    "Recall@1": 0.8553333333333333,
+    "Recall@5": 0.9826666666666667,
+    "Recall@10": 0.9933333333333333
+  },
+  "scope": "English captions, 300-image candidate set. No training/fine-tuning. Not a full Flickr8k benchmark.",
+  "versions": {
+    "python": "3.12.14",
+    "torch": "2.14.1+cpu",
+    "faiss": "1.15.1"
+  }
+}

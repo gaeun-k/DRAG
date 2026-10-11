@@ -1,0 +1,326 @@
+[
+  {
+    "query": "A dog running on the grass.",
+    "language": "English",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.15169042348861694,
+        "id": "2654514044_a70a6e2c21.jpg",
+        "path": "data/2654514044_a70a6e2c21.jpg",
+        "captions": [
+          "A brown dog running",
+          "A brown dog running over grass .",
+          "A brown dog with its front paws off the ground on a grassy surface near red and purple flowers .",
+          "A dog runs across a grassy lawn near some flowers .",
+          "A yellow dog is playing in a grassy area near flowers ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/2654514044_a70a6e2c21.jpg",
+        "sha256": "ac5593a76a41e237f5414fe204e03397f2e4e3f6fa7cfaff36b164d54589d500"
+      },
+      {
+        "rank": 2,
+        "score": 0.13884671032428741,
+        "id": "2534502836_7a75305655.jpg",
+        "path": "data/2534502836_7a75305655.jpg",
+        "captions": [
+          "A medium sized brown and white streaked dog is running through tall grass .",
+          "A single tan-and-white dog dashes through tall green grass .",
+          "A small brown and white dog running through tall grass .",
+          "A small dog runs through a grassy field .",
+          "A white and tan dog runs through the tall green grass ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/2534502836_7a75305655.jpg",
+        "sha256": "fa72eafac15d5807658c39c85f5103ef4237a32ed6819bcc2f06ac53a76b53b4"
+      },
+      {
+        "rank": 3,
+        "score": 0.13050317764282227,
+        "id": "1119015538_e8e796281e.jpg",
+        "path": "data/1119015538_e8e796281e.jpg",
+        "captions": [
+          "A little tan dog with large ears running through the grass .",
+          "A playful dog is running through the grass .",
+          "A small dogs ears stick up as it runs in the grass .",
+          "The small dog is running across the lawn .",
+          "this is a small beige dog running through a grassy field"
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/1119015538_e8e796281e.jpg",
+        "sha256": "13c3af7ffe5f54f5d63434f0d50dea8093a2e53b97203b35c66cca795e6815f0"
+      },
+      {
+        "rank": 4,
+        "score": 0.12559285759925842,
+        "id": "263854883_0f320c1562.jpg",
+        "path": "data/263854883_0f320c1562.jpg",
+        "captions": [
+          "The two small dogs run through the grass .",
+          "Two fluffy white dogs running in green grass .",
+          "Two small dogs run through the grass .",
+          "Two small dogs that look almost identical are playing in the grass .",
+          "Two yellow dogs run together in green grass ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/263854883_0f320c1562.jpg",
+        "sha256": "20d01f1d728d4dee51f64d10da5ef5b9a9200328b8af4da07830830277c419d8"
+      },
+      {
+        "rank": 5,
+        "score": 0.12534114718437195,
+        "id": "3155987659_b9ea318dd3.jpg",
+        "path": "data/3155987659_b9ea318dd3.jpg",
+        "captions": [
+          "A black and white dog is catching a Frisbee in the yard .",
+          "A black and white dog is trying to catch a Frisbee in the air .",
+          "A dog jumps to catch a red Frisbee in the yard .",
+          "Dog is jumping up on a very green lawn to catch a Frisbee .",
+          "The black and white dog tries to catch a red Frisbee on green grass ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/3155987659_b9ea318dd3.jpg",
+        "sha256": "6ea1041225f04bfe18613dc9114ef40788854cbcb967257f9d80e4689cc51b44"
+      }
+    ]
+  },
+  {
+    "query": "풀밭 위를 달리는 개",
+    "language": "Korean",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.12527692317962646,
+        "id": "2654514044_a70a6e2c21.jpg",
+        "path": "data/2654514044_a70a6e2c21.jpg",
+        "captions": [
+          "A brown dog running",
+          "A brown dog running over grass .",
+          "A brown dog with its front paws off the ground on a grassy surface near red and purple flowers .",
+          "A dog runs across a grassy lawn near some flowers .",
+          "A yellow dog is playing in a grassy area near flowers ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/2654514044_a70a6e2c21.jpg",
+        "sha256": "ac5593a76a41e237f5414fe204e03397f2e4e3f6fa7cfaff36b164d54589d500"
+      },
+      {
+        "rank": 2,
+        "score": 0.1182098537683487,
+        "id": "2534502836_7a75305655.jpg",
+        "path": "data/2534502836_7a75305655.jpg",
+        "captions": [
+          "A medium sized brown and white streaked dog is running through tall grass .",
+          "A single tan-and-white dog dashes through tall green grass .",
+          "A small brown and white dog running through tall grass .",
+          "A small dog runs through a grassy field .",
+          "A white and tan dog runs through the tall green grass ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/2534502836_7a75305655.jpg",
+        "sha256": "fa72eafac15d5807658c39c85f5103ef4237a32ed6819bcc2f06ac53a76b53b4"
+      },
+      {
+        "rank": 3,
+        "score": 0.10386529564857483,
+        "id": "3155987659_b9ea318dd3.jpg",
+        "path": "data/3155987659_b9ea318dd3.jpg",
+        "captions": [
+          "A black and white dog is catching a Frisbee in the yard .",
+          "A black and white dog is trying to catch a Frisbee in the air .",
+          "A dog jumps to catch a red Frisbee in the yard .",
+          "Dog is jumping up on a very green lawn to catch a Frisbee .",
+          "The black and white dog tries to catch a red Frisbee on green grass ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/3155987659_b9ea318dd3.jpg",
+        "sha256": "6ea1041225f04bfe18613dc9114ef40788854cbcb967257f9d80e4689cc51b44"
+      },
+      {
+        "rank": 4,
+        "score": 0.10330092161893845,
+        "id": "263854883_0f320c1562.jpg",
+        "path": "data/263854883_0f320c1562.jpg",
+        "captions": [
+          "The two small dogs run through the grass .",
+          "Two fluffy white dogs running in green grass .",
+          "Two small dogs run through the grass .",
+          "Two small dogs that look almost identical are playing in the grass .",
+          "Two yellow dogs run together in green grass ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/263854883_0f320c1562.jpg",
+        "sha256": "20d01f1d728d4dee51f64d10da5ef5b9a9200328b8af4da07830830277c419d8"
+      },
+      {
+        "rank": 5,
+        "score": 0.10302452743053436,
+        "id": "2890113532_ab2003d74e.jpg",
+        "path": "data/2890113532_ab2003d74e.jpg",
+        "captions": [
+          "A brown dog and a black and white dog are running over grassy hills .",
+          "Two dogs are running next to each other on a grassy hill .",
+          "Two dogs in motion in a grassy field with small trees .",
+          "Two dogs play in a field .",
+          "Two dogs running through a field ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/2890113532_ab2003d74e.jpg",
+        "sha256": "f77f97328ff8bc1030dc5d46d9e09dd4ae0f7f0c1b047055393a967e04fd6a9c"
+      }
+    ]
+  },
+  {
+    "query": "A child playing in the water.",
+    "language": "English",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.1640373170375824,
+        "id": "3564312955_716e86c48b.jpg",
+        "path": "data/3564312955_716e86c48b.jpg",
+        "captions": [
+          "A closeup of a young child wearing a pink bathing suit laying in shallow water at the beach .",
+          "A little girl smiles as she lays on her side in the water .",
+          "a smiling toddler in a pink swimsuit is laying in the water .",
+          "A young dark haired girl in a pink and white swimsuit smiles as she lies in three inch deep water .",
+          "Little girl in swimsuit lies on stomach in water , smiles at camera ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/3564312955_716e86c48b.jpg",
+        "sha256": "2daa4226df18d7130824a37a5b7160ad3e729dbab5bca094bc2f40d1dfeea55c"
+      },
+      {
+        "rank": 2,
+        "score": 0.16021722555160522,
+        "id": "1287475186_2dee85f1a5.jpg",
+        "path": "data/1287475186_2dee85f1a5.jpg",
+        "captions": [
+          "A boy sitting in water .",
+          "A small boy is sitting in the water and water is splashing up through his legs .",
+          "A young boy in a swimming suit sits in water .",
+          "A young boy sitting on a water jet in a pool .",
+          "Little boy sitting in water with a fountain coming up through his lap ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/1287475186_2dee85f1a5.jpg",
+        "sha256": "9a1c26d59909b30adf91ced343051d2da5e04663078b510fd7945b3813957f27"
+      },
+      {
+        "rank": 3,
+        "score": 0.15776246786117554,
+        "id": "3484649669_7bfe62080b.jpg",
+        "path": "data/3484649669_7bfe62080b.jpg",
+        "captions": [
+          "A girl with a black swimsuit plays in the sprinkler .",
+          "A young girl is playing in a fountain of water .",
+          "A young girl plays in fountain water .",
+          "Little girl crouches to splash fountain water .",
+          "There is a young girl in a bathing suit playing with water shooting out of the ground ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/3484649669_7bfe62080b.jpg",
+        "sha256": "69a893e43a18d4cb91c21be52f5d374001e728a29374a4529b80a60047fff31e"
+      },
+      {
+        "rank": 4,
+        "score": 0.15689662098884583,
+        "id": "3208074567_ac44aeb3f3.jpg",
+        "path": "data/3208074567_ac44aeb3f3.jpg",
+        "captions": [
+          "A boy wearing a red shirt is splashed by water .",
+          "A child with water splashing on him .",
+          "A little boy being splashed by water on his head",
+          "little kid in red pooh shirt getting wet",
+          "The little boy in red is getting drenched with water ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/3208074567_ac44aeb3f3.jpg",
+        "sha256": "dff011aae8203154ef2bcb735545ccc37f5e08fec2936f18eddc80fdb53bf550"
+      },
+      {
+        "rank": 5,
+        "score": 0.15067723393440247,
+        "id": "1317292658_ba29330a0b.jpg",
+        "path": "data/1317292658_ba29330a0b.jpg",
+        "captions": [
+          "a boy enjoys a rain shower .",
+          "A boy in bathing trunks is standing under a water shower .",
+          "A boy in swim trunks screams while being sprayed with water .",
+          "A boy is squinting while being sprayed with water from a flat ground surface .",
+          "A boy wearing black swimming trunks is standing in a fountain ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/1317292658_ba29330a0b.jpg",
+        "sha256": "62a601cfe484eb4689f242e5c8732993722fcc35a101ea1b1c8b660fe70252f6"
+      }
+    ]
+  },
+  {
+    "query": "물에서 놀고 있는 아이",
+    "language": "Korean",
+    "results": [
+      {
+        "rank": 1,
+        "score": 0.14041931927204132,
+        "id": "3208074567_ac44aeb3f3.jpg",
+        "path": "data/3208074567_ac44aeb3f3.jpg",
+        "captions": [
+          "A boy wearing a red shirt is splashed by water .",
+          "A child with water splashing on him .",
+          "A little boy being splashed by water on his head",
+          "little kid in red pooh shirt getting wet",
+          "The little boy in red is getting drenched with water ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/3208074567_ac44aeb3f3.jpg",
+        "sha256": "dff011aae8203154ef2bcb735545ccc37f5e08fec2936f18eddc80fdb53bf550"
+      },
+      {
+        "rank": 2,
+        "score": 0.13736912608146667,
+        "id": "3484649669_7bfe62080b.jpg",
+        "path": "data/3484649669_7bfe62080b.jpg",
+        "captions": [
+          "A girl with a black swimsuit plays in the sprinkler .",
+          "A young girl is playing in a fountain of water .",
+          "A young girl plays in fountain water .",
+          "Little girl crouches to splash fountain water .",
+          "There is a young girl in a bathing suit playing with water shooting out of the ground ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/3484649669_7bfe62080b.jpg",
+        "sha256": "69a893e43a18d4cb91c21be52f5d374001e728a29374a4529b80a60047fff31e"
+      },
+      {
+        "rank": 3,
+        "score": 0.12854991853237152,
+        "id": "3564312955_716e86c48b.jpg",
+        "path": "data/3564312955_716e86c48b.jpg",
+        "captions": [
+          "A closeup of a young child wearing a pink bathing suit laying in shallow water at the beach .",
+          "A little girl smiles as she lays on her side in the water .",
+          "a smiling toddler in a pink swimsuit is laying in the water .",
+          "A young dark haired girl in a pink and white swimsuit smiles as she lies in three inch deep water .",
+          "Little girl in swimsuit lies on stomach in water , smiles at camera ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/3564312955_716e86c48b.jpg",
+        "sha256": "2daa4226df18d7130824a37a5b7160ad3e729dbab5bca094bc2f40d1dfeea55c"
+      },
+      {
+        "rank": 4,
+        "score": 0.12362892180681229,
+        "id": "1317292658_ba29330a0b.jpg",
+        "path": "data/1317292658_ba29330a0b.jpg",
+        "captions": [
+          "a boy enjoys a rain shower .",
+          "A boy in bathing trunks is standing under a water shower .",
+          "A boy in swim trunks screams while being sprayed with water .",
+          "A boy is squinting while being sprayed with water from a flat ground surface .",
+          "A boy wearing black swimming trunks is standing in a fountain ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/1317292658_ba29330a0b.jpg",
+        "sha256": "62a601cfe484eb4689f242e5c8732993722fcc35a101ea1b1c8b660fe70252f6"
+      },
+      {
+        "rank": 5,
+        "score": 0.12082603573799133,
+        "id": "539751252_2bd88c456b.jpg",
+        "path": "data/539751252_2bd88c456b.jpg",
+        "captions": [
+          "A toddler is making a splash inside a blue paddling pool .",
+          "A young boy wearing blue shorts is splashing is a blue kiddie pool .",
+          "Child in blue trunks splashing in blue kiddie pool",
+          "Child in kiddie pool splashes water , sticks out tongue .",
+          "The child is splashing water in a small blue pool ."
+        ],
+        "source": "https://huggingface.co/datasets/intro/flickr8k/resolve/c7a02cb487da0eca729e133194b0f842cb578c08/test/539751252_2bd88c456b.jpg",
+        "sha256": "826ff1eac0d2dec58eedddbb3423dd6a930ae7de83bee3872f9bb96a883787e2"
+      }
+    ]
+  }
+]
