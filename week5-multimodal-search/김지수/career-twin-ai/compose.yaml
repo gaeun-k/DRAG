@@ -1,0 +1,21 @@
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:8501:8501"
+    environment:
+      OLLAMA_URL: http://ollama:11434
+      CAREER_DATA_DIR: /app/data
+      APP_REQUIRE_AUTH: "true"
+      APP_PASSWORD: ${APP_PASSWORD:?Set APP_PASSWORD in .env before running compose}
+    volumes:
+      - career-data:/app/data
+    depends_on:
+      - ollama
+  ollama:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama-models:/root/.ollama
+volumes:
+  career-data:
+  ollama-models:
