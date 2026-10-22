@@ -1,18 +1,16 @@
 # 김가은의 week4-siglip 실습
 
-## SigLIP 발표 자료 + 실습
+## SigLIP 개념 정리 + 실습
 
-| 파일 | 내용 |
-|---|---|
-| `SigLIP_4주차_발표.pptx` | 발표 슬라이드 24장 (개념 16장 + 실습 6장 + 마무리), 슬라이드 노트에 대본 포함 |
-| `SigLIP_4주차_발표_대본.md` | 슬라이드별 발표 대본 (약 19분) |
-| `SigLIP_발표자료_내용.md` | 초기 슬라이드 구성안 (최종본은 pptx) |
+`Inference_with_multilingual_SigLIP.ipynb`
 
-### 발표 구성
+smol-vision의 [Inference with multilingual SigLIP](https://github.com/merveenoyan/smol-vision) 노트북을 직접 실행한 결과입니다. 원본은 so400m 모델을 쓰는데, 가볍게 돌리려고 `siglip-base-patch16-224`(영어)와 `siglip-base-patch16-256-multilingual`(다국어)로 바꿔 실행했습니다.
+
+### 정리 내용
 1. **배경**: 공동 임베딩 공간, 대조학습, CLIP(= 객관식, Softmax)과 그 약점
 2. **SigLIP 핵심**: O/X 퀴즈(Sigmoid Loss), 듀얼 인코더 구조, ViT 패치, 수식과 바이어스 b(초기값 −10), 효율, CLIP vs SigLIP 비교
 3. **검색에 적합한 이유**: 이미지는 미리 인덱싱하고 질문만 계산, 점수를 확률로 읽기
-4. **실습**: [Inference with multilingual SigLIP](https://github.com/merveenoyan/smol-vision) 노트북 실행 결과
+4. **실습**: 위 노트북 실행 결과 (아래 표)
 5. **마무리**: 핵심 3줄 요약, 참고자료
 
 ### 실습 결과
