@@ -17,7 +17,7 @@ TAVE 스터디 **DRAG**의 실습 코드 저장소입니다. 텍스트 기반 RA
 | 3주차 | [`week3-advanced-retrieval`](./week3-advanced-retrieval) | Reranking, RAGAS 기반 평가 |
 | 4주차 | [`week4-siglip`](./week4-siglip) | SigLIP 비전-언어 임베딩 학습 |
 | 5주차 | [`week5-multimodal-search`](./week5-multimodal-search) | 텍스트→이미지 멀티모달 검색 구현 |
-| 6주차(선택) | [`week6-integration`](./week6-integration) | 통합 미니 프로젝트 (3인 2팀) |
+| 6주차(선택) | [`week6-integration`](./week6-integration) | 통합 미니 프로젝트 (2인 3팀) |
 
 각 주차 폴더의 README에 그 주의 학습 목표·내용·과제·참고자료가 정리되어 있습니다.
 
@@ -40,10 +40,11 @@ DRAG/
 └── week6-integration/
     ├── README.md
     ├── team1/
-    └── team2/
+    ├── team2/
+    └── team3/
 ```
 
-1~5주차는 멤버별 폴더에 각자 실습 코드를 올리고, 6주차는 3인씩 구성된 team1 / team2 폴더에 팀 단위로 결과물을 올립니다.
+1~5주차는 멤버별 폴더에 각자 실습 코드를 올리고, 6주차는 2인씩 구성된 team1 / team2 / team3 폴더에 팀 단위로 결과물을 올립니다.
 
 ## 사용 자료 및 환경
 

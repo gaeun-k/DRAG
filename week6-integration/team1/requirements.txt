@@ -1,0 +1,16 @@
+# 버전은 고정하지 않았습니다. 개발은 Google Colab 환경에서 진행했습니다.
+gradio
+faiss-cpu
+rapidfuzz
+pillow-heif
+google-genai
+kiwipiepy
+rank_bm25
+sentence-transformers
+transformers
+torch
+pandas
+pyarrow
+numpy
+python-dotenv
+requests

@@ -1,0 +1,5 @@
+{
+  "model": "google/siglip2-so400m-patch14-384",
+  "n_vectors": 8176,
+  "n_items": 2736
+}

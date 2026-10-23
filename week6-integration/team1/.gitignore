@@ -1,0 +1,18 @@
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 용량이 큰 데이터·인덱스·개인 촬영 사진 (docs/SPEC.md 8-1 참고)
+*.faiss
+*.npy
+*.npz
+pill_chatbot/images/
+pill_chatbot/test/
+pill_chatbot/test_raw/
+pill_chatbot/raw/
+*.heic
+*.HEIC
+pill_info.csv
+eyakeunyo.csv
+easy_drug.xlsx

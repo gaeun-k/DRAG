@@ -1,0 +1,33 @@
+{
+  "weights": {
+    "imprint": 0.6,
+    "siglip": 0.2,
+    "attr": 0.2
+  },
+  "vlm_model": "gemini-3.8-flash",
+  "siglip_model": "google/siglip2-so400m-patch14-384",
+  "name_threshold": 0.85,
+  "eval": {
+    "SigLIP만": {
+      "top-1": 0.152,
+      "top-3": 0.152,
+      "top-5": 0.152
+    },
+    "VLM만": {
+      "top-1": 0.606,
+      "top-3": 0.667,
+      "top-5": 0.667
+    },
+    "결합": {
+      "top-1": 0.636,
+      "top-3": 0.636,
+      "top-5": 0.636
+    },
+    "결합(최종)": {
+      "top-1": 0.667,
+      "top-3": 0.667,
+      "top-5": 0.667
+    }
+  },
+  "n_test": 33
+}
